@@ -17,6 +17,8 @@ public class ContaTerminal {
         System.out.println("Digite o valor do primeiro depósito (Formato 0.00, não utilizar vírgula): ");
         double saldo = scanner.nextDouble();
 
+        scanner.close();
+
         System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + conta + " e seu saldo R$" + saldo + " já está disponível para saque");
     }
 }
